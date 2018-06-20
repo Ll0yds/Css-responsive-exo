@@ -1,0 +1,22 @@
+/*Les deux exemples suivants ciblent les écrans de largeur inférieure à 640 pixels grâce à la règle max-width associée à la valeur 640px.*/
+@media screen and (max-width: 640px) {
+  #all {
+    display:block;
+    clear:both;
+  }
+}
+
+#NicolasCage {
+  flex: 50vw;
+  height: 50vw;
+}
+
+#Cage {
+  height: 100vh;
+  width: auto;
+}
+
+#Carrey {
+  height : 100%;
+    width: auto;
+}
